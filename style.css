@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffdddd, #ddddff);
+    color: #333;
+}
+
+header {
+    background-color: #c20000;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header .botao {
+    display: inline-block;
+    background-color: #0046aa;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section h2 {
+    color: #c20000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.8rem 1.5rem;
+    background-color: #c20000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0046aa;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
